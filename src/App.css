@@ -1,0 +1,209 @@
+/* Universal */
+
+.App {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+  line-height: 26px;
+}
+
+.button {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 5px;
+  padding: 6px;
+  border: rgb(70, 2, 70) 2px solid;
+  border-left: 0;
+  border-top: 0;
+  background-color:  rgb(117, 55, 117);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:hover {
+  border: white 2px solid;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.fa-spinner {
+  padding: 20px;
+  font-size: 36px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.warning {
+  color: red;
+  font-weight: bold;
+}
+
+/* Header */
+
+.App-header {
+  background-image: url('https://images.pexels.com/photos/753267/pexels-photo-753267.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  height: 120px;
+  padding: 20px;
+  color: white;
+}
+
+.App-header a {
+  text-decoration: none;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+#home-button {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: 26px;
+  color: white
+}
+
+/* Topics */
+
+.dropdown {
+  padding: 3px;
+  margin: 10px;
+  font-family: 'Ubuntu', sans-serif;
+  border: rgb(117, 55, 117) 2px solid;
+  color: rgb(70, 2, 70);
+  background-color: transparent;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* NewArticle */
+
+.article-input {
+  display: block;
+  margin: 10px auto;
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#title-box {
+  width: 80%;
+  max-width: 400px;
+  height: 30px;
+  font-size: 18px;
+}
+
+#body-box {
+  width: 80%;
+  height: 300px;
+}
+
+/* AllArticles */
+
+.articles a {
+  text-decoration: none;
+  color: black;
+}
+
+.articles h3 {
+  font-style: italic;
+  font-weight: normal;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center
+}
+
+/* Article */
+
+.article {
+  max-width: 360px;
+  padding: 10px 20px;
+}
+
+.article-img {
+  max-width: 360px;
+  width: 100%;
+}
+
+.article-img-solo {
+  width: 90%;
+  max-width: 800px;
+}
+
+#article-body {
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* NewComment */
+
+.add-comment {
+    display: block;
+    margin: 10px auto;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#comment-input {
+  width: 90%;
+  max-width: 700px;
+  height: 100px;
+}
+
+#comment-button {
+  margin: 5px auto;
+  vertical-align: middle;
+}
+
+/* Comments */
+
+.comment {
+  text-align: left;
+  margin: 10px;
+}
+
+.avatar-img {
+  width: 50px;
+  float: left;
+  margin: 10px;
+}
+
+#username {
+  color: rgb(70, 2, 70) 
+}
+
+.comments {
+  max-height: 700px;
+  width: 90%;
+  margin: auto;
+  overflow-y: scroll;
+  background-color: rgb(233, 230, 230);
+}
+
+/* Votes */
+
+.vote-button {
+  font-size: 27px;
+  color: rgb(70, 2, 70);
+  border: 0;
+  padding: 0 8px;
+  background-color: transparent;
+}
+
+.vote-button:hover {
+  color: rgb(117, 55, 117);
+}
+
+.vote-button:disabled {
+  color: rgb(112, 107, 112);
+}
